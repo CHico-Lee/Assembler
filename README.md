@@ -47,16 +47,17 @@ Hex for EmuMaker86 memory file.
 Hex prefixed with “0x” and separate by “,”.
 Hex for the array of memory in Verilog (custom variable name).
 
-## To Run
+## Step To Run
+Download and run Assembler.exe.
+
 ### Convert assembly to machine code.
-1.  Download and run Assembler.exe.
-2.  Fill in Loop label(optional), OPcode, RD/RT, and RS/IMM.
-3.  Use “+” button to add a new line.
-4.  After completed all instruction, use numericupdown to select number of NOPs to insert between each instruction.
-5.  Click “Convert to Binary >>” to covert assembly to machine code.
-6.  If an error occurs, please check instruction followed by PC number.
-7.  Use “Copy All” to copy the needed code into the clipboard.
-8.  Instruction will be saved to file “program.dat” on the same directory.
+1.  Fill in Loop label(optional), OPcode, RD/RT, and RS/IMM.
+2.  Use “+” button to add a new line.
+3.  After completed all instruction, use numericupdown to select number of NOPs to insert between each instruction.
+4.  Click “Convert to Binary >>” to covert assembly to machine code.
+5.  If an error occurs, please check instruction followed by PC number.
+6.  Use “Copy All” to copy the needed code into the clipboard.
+7.  Instruction will be saved to file “program.dat” on the same directory.
 
 ### Convert from Readable format to assembly.
 This method is design for editing existing instruction from draft. The instruction must be input in the following format:
@@ -64,7 +65,8 @@ This method is design for editing existing instruction from draft. The instructi
 2.  Click “Input to Assembly << ”.
 3.  Instruction should be imported and display on the left.
 4.  Comment of the instruction will be retrieved when converting back to machine code.
- ### Convert from machine code to assembly.
+
+### Convert from machine code to assembly.
 This method is design to produce assembly from EmuMaker86 memory file.
 1.	Input hex code into the bottom text field, one hex code per line.
 2.	Click “Input from Hex to Assembly <<”.
